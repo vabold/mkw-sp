@@ -42,8 +42,26 @@
 0x801d2544 NETSHA1Update
 0x801d25f8 NETSHA1GetDigest
 
+0x80214770 _ZN3EGG12LookAtCamera14doUpdateMatrixEv
+0x80214bac _ZNK3EGG12LookAtCamera13getViewMatrixEv
+
+0x80237c28 EGG_DrawPathDOF_drawSetup
 0x8023afe0 _ZN3EGG12SceneManager18changeSiblingSceneEi
+
+0x80384ba0 _ZN3EGG8Vector3f4zeroE
+0x80384bd0 _ZN3EGG8Vector3f2eyE
 
 0x80386638 MaxEntryNum
 0x8038663c FstStringStart
 0x80386640 FstStart
+
+0x8054994c _ZNK6System11UnlockFlags3getEv
+
+0x805a21d0 KartCamera_calc
+0x805a4dbc _ZN6Camera10KartCamera10setFovMultEf
+0x805a6c58 _ZN6Camera10KartCamera13getMatrixCopyEfRN3EGG9Matrix34fEPNS1_8Vector3fE
+
+0x80633bb0 _ZNK2UI18RacePageTimeAttack11getControlsEv
+
+0x8080761c ObjKinoko_ct
+0x8080782c ObjKinoko_calc
