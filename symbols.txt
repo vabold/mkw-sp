@@ -11,6 +11,9 @@
 0x80011938 snprintf
 0x800135f0 strstr
 
+0x80085110 _ZN4nw4r4math7SinFIdxEf
+0x80085180 _ZN4nw4r4math7CosFIdxEf
+
 0x8015df4c DVDConvertPathToEntrynum
 0x8015e254 DVDFastOpen
 0x8015e2bc DVDOpen
@@ -25,6 +28,7 @@
 0x801a162c DCFlushRange
 0x801a165c DCStoreRange
 0x801a1710 ICInvalidateRange
+0x801a25d0 OSReport
 0x801a4ec4 OSFatal
 0x801a65ac OSDisableInterrupts
 0x801a65d4 OSRestoreInterrupts
@@ -42,8 +46,29 @@
 0x801d2544 NETSHA1Update
 0x801d25f8 NETSHA1GetDigest
 
+0x80239f58 _ZN3EGG5Quatf7fromRPYEfff
 0x8023afe0 _ZN3EGG12SceneManager18changeSiblingSceneEi
+
+0x802a4118 _ZN3EGG8Vector3f2exE
+0x802a4148 _ZN3EGG8Vector3f2ezE
 
 0x80386638 MaxEntryNum
 0x8038663c FstStringStart
 0x80386640 FstStart
+
+0x80514b24 _ZN6System17MapdataStartPoint23getInitialPhysicsValuesERN3EGG8Vector3fES3_hh
+0x80514b30 _ZN6System9CourseMap13getStartPointEj
+0x805147fc _ZN3EGG5Quatf12rotateVectorERKNS_8Vector3fE
+0x80518b78 _ZN6System9CourseMap12getStageInfoEv
+
+0x8088f8e8 _ZN6System17MapdataStartPoint19s_xTranslationTableE
+0x8088f978 _ZN6System17MapdataStartPoint19s_zTranslationTableE
+
+0x808b2c20 _ZN6System9CourseMap6s_tmp0E
+0x808b2c24 _ZN6System9CourseMap6s_tmp1E
+0x808b2c28 _ZN6System9CourseMap7s_angleE
+0x808b2c2c _ZN6System9CourseMap6s_tmp2E
+
+0x809bd6e8 _ZN6System9CourseMap10s_instanceE
+0x809bd6ec _ZN6System9CourseMap6s_tmp3E
+0x809bd728 _ZN6System10RaceConfig10s_instanceE

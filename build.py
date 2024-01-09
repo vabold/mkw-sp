@@ -251,6 +251,7 @@ profile_Sflags = {
 }
 common_cflags = [
     '-DREVOLUTION',
+    '-ffp-contract=off',
     '-fms-extensions',
     '-fno-asynchronous-unwind-tables',
     '-fshort-wchar',
@@ -266,6 +267,7 @@ common_cflags = [
 ]
 common_ccflags = [
     '-DREVOLUTION',
+    '-ffp-contract=off',
     '-fno-asynchronous-unwind-tables',
     '-fno-exceptions',
     '-fno-rtti',
