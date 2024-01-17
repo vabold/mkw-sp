@@ -25,6 +25,7 @@
 0x801a162c DCFlushRange
 0x801a165c DCStoreRange
 0x801a1710 ICInvalidateRange
+0x801a25d0 OSReport
 0x801a4ec4 OSFatal
 0x801a65ac OSDisableInterrupts
 0x801a65d4 OSRestoreInterrupts
@@ -42,8 +43,13 @@
 0x801d2544 NETSHA1Update
 0x801d25f8 NETSHA1GetDigest
 
+0x8020fa78 _ZN3EGG7Archive20convertPathToEntryIDEPKc
+
 0x8023afe0 _ZN3EGG12SceneManager18changeSiblingSceneEi
 
 0x80386638 MaxEntryNum
 0x8038663c FstStringStart
 0x80386640 FstStart
+
+0x8052a800 _ZNK6System15MultiDvdArchive8isLoadedEv
+0x80540450 _ZN6System15ResourceManager4loadEiPvPKc
