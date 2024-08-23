@@ -1,3 +1,5 @@
+0x8001329c strcmp
+
 0x80005f34 memcpy_slow
 0x80006038 memset_slow
 0x80006210 __init_registers
@@ -47,3 +49,14 @@
 0x80386638 MaxEntryNum
 0x8038663c FstStringStart
 0x80386640 FstStart
+
+0x8054994c _ZN6System11UnlockFlags3GetEv
+
+0x80799cac ItemDirector_checkKartCollision
+0x807b9fb0 ItemSlot_init
+0x807ba77c _ZN4Item13ItemSlotTable14CreateInstanceEv
+0x807baf48 ItemSlotTable_init
+
+0x80826e8c ObjectDirector_createObjects
+
+0x808a6338 _ZN4Item13ItemSlotTable18s_playerScaleTableE
