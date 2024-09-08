@@ -42,8 +42,18 @@
 0x801d2544 NETSHA1Update
 0x801d25f8 NETSHA1GetDigest
 
+0x80229dcc _Znwj
+0x80229df0 _Znaj
+
 0x8023afe0 _ZN3EGG12SceneManager18changeSiblingSceneEi
 
 0x80386638 MaxEntryNum
 0x8038663c FstStringStart
 0x80386640 FstStart
+
+0x805127ec _ZN6System9CourseMap4initEv
+0x80514208 _ZN6System21MapdataCourseAccessor11findSectionEj
+
+0x80571d98 KartCollide_handleFallBoundary
+
+0x809bd6e8 CourseMap_s_instance
