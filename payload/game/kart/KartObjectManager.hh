@@ -6,8 +6,8 @@ namespace Kart {
 
 class KartObjectManager {
 public:
-    REPLACE void end(u32 playerIdx);
-    void REPLACED(end)(u32 playerIdx);
+    REPLACE static void end(u32 playerIdx);
+    static void REPLACED(end)(u32 playerIdx);
 
     const KartObject *object(size_t idx) const;
 

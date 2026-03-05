@@ -70,6 +70,8 @@
 0x8038663c FstStringStart
 0x80386640 FstStart
 
+0x80520b9c _ZN6System19KPadGhostController9calcInnerEPNS_14RaceInputStateEPNS_12UIInputStateE
+
 0x8051bc78 _ZN5Scene9GameScene4drawEv
 
 0x8051c120 _ZNK6System12RawGhostFile7isValidEv
@@ -95,6 +97,7 @@
 
 0x8071763c _ZN5Sound12SoundManager4calcEv
 
+0x809bd70c _ZN6System12KPadDirector10s_instanceE
 0x809bd728 _ZN6System10RaceConfig10s_instanceE
 0x809bd730 _ZN6System11RaceManager10s_instanceE
 
